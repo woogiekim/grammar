@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>맞춤법 검사기</title>
+  <link rel="stylesheet" type="text/css"
+        href="https://ssl.pstatic.net/sstatic/search/pc/css/search1_240530.css">
+</head>
+<body>
+<div id="container" role="main">
+  <div id="content" class="pack_group"><h1 class="blind">맞춤법검사기 검색 결과</h1>
+    <div id="main_pack" class="main_pack">
+      <div id="snb" class="_search_option_detail_wrap _slog_visible" data-slog-container="opt"
+           style="display: none;" data-slog-visible="false">
+        <form id="nx_option_form" name="nx_option_form" action="?"><input type="hidden" id="ssc"
+                                                                          name="ssc"
+                                                                          value="tab.nx.all"> <input
+            type="hidden" id="where" name="where" value="nexearch"> <input type="hidden" id="query"
+                                                                           name="query"
+                                                                           value="맞춤법검사기"> <input
+            type="hidden" id="sm" name="sm" value="tab_opt"></form>
+        <div role="listbox" class="mod_group_option_sort">
+          <button onclick="return tCR('a=opt.fold');" type="button"
+                  class="spnew_bf bt_close _search_option_close_btn">검색옵션 닫기
+          </button>
+          <ul class="lst_option">
+            <li class="bx lineup">
+              <div class="bx_inner"><strong class="tit">정렬</strong>
+                <div role="tablist" class="option"><a role="tab" class="txt" aria-selected="true"
+                                                      href="?ssc=tab.nx.all&amp;where=nexearch&amp;sm=tab_opt&amp;query=%EB%A7%9E%EC%B6%A4%EB%B2%95%EA%B2%80%EC%82%AC%EA%B8%B0&amp;nso=so%3Ar&amp;nso_open=1"
+                                                      onclick="return goOtherCR(this, 'a=opt.sim&amp;r=&amp;i=&amp;u='+urlencode(this.href));">관련도순</a><a
+                    role="tab" class="txt" aria-selected="false"
+                    href="?ssc=tab.nx.all&amp;where=nexearch&amp;sm=tab_opt&amp;query=%EB%A7%9E%EC%B6%A4%EB%B2%95%EA%B2%80%EC%82%AC%EA%B8%B0&amp;nso=so%3Add&amp;nso_open=1"
+                    onclick="return goOtherCR(this, 'a=opt.new&amp;r=&amp;i=&amp;u='+urlencode(this.href));">최신순</a>
+                </div>
+              </div>
+            </li>
+            <li class="bx term">
+              <div class="bx_inner"><strong class="tit">기간</strong>
+                <div role="tablist" class="option"><a role="tab" class="txt" aria-selected="true"
+                                                      href="?ssc=tab.nx.all&amp;where=nexearch&amp;sm=tab_opt&amp;query=%EB%A7%9E%EC%B6%A4%EB%B2%95%EA%B2%80%EC%82%AC%EA%B8%B0&amp;nso=p%3Aall&amp;nso_open=1"
+                                                      onclick="return goOtherCR(this, 'a=opt.all&amp;r=&amp;i=&amp;u='+urlencode(this.href));">전체</a><a
+                    role="tab" class="txt" aria-selected="false"
+                    href="?ssc=tab.nx.all&amp;where=nexearch&amp;sm=tab_opt&amp;query=%EB%A7%9E%EC%B6%A4%EB%B2%95%EA%B2%80%EC%82%AC%EA%B8%B0&amp;nso=p%3A1h&amp;nso_open=1"
+                    onclick="return goOtherCR(this, 'a=opt.1hr&amp;r=&amp;i=&amp;u='+urlencode(this.href));">1시간</a><a
+                    role="tab" class="txt" aria-selected="false"
+                    href="?ssc=tab.nx.all&amp;where=nexearch&amp;sm=tab_opt&amp;query=%EB%A7%9E%EC%B6%A4%EB%B2%95%EA%B2%80%EC%82%AC%EA%B8%B0&amp;nso=p%3A1d&amp;nso_open=1"
+                    onclick="return goOtherCR(this, 'a=opt.1day&amp;r=&amp;i=&amp;u='+urlencode(this.href));">1일</a><a
+                    role="tab" class="txt" aria-selected="false"
+                    href="?ssc=tab.nx.all&amp;where=nexearch&amp;sm=tab_opt&amp;query=%EB%A7%9E%EC%B6%A4%EB%B2%95%EA%B2%80%EC%82%AC%EA%B8%B0&amp;nso=p%3A1w&amp;nso_open=1"
+                    onclick="return goOtherCR(this, 'a=opt.1wk&amp;r=&amp;i=&amp;u='+urlencode(this.href));">1주</a><a
+                    role="tab" class="txt" aria-selected="false"
+                    href="?ssc=tab.nx.all&amp;where=nexearch&amp;sm=tab_opt&amp;query=%EB%A7%9E%EC%B6%A4%EB%B2%95%EA%B2%80%EC%82%AC%EA%B8%B0&amp;nso=p%3A1m&amp;nso_open=1"
+                    onclick="return goOtherCR(this, 'a=opt.1mon&amp;r=&amp;i=&amp;u='+urlencode(this.href));">1개월</a><a
+                    role="tab" class="txt" aria-selected="false"
+                    href="?ssc=tab.nx.all&amp;where=nexearch&amp;sm=tab_opt&amp;query=%EB%A7%9E%EC%B6%A4%EB%B2%95%EA%B2%80%EC%82%AC%EA%B8%B0&amp;nso=p%3A3m&amp;nso_open=1"
+                    onclick="return goOtherCR(this, 'a=opt.3mon&amp;r=&amp;i=&amp;u='+urlencode(this.href));">3개월</a><a
+                    role="tab" class="txt" aria-selected="false"
+                    href="?ssc=tab.nx.all&amp;where=nexearch&amp;sm=tab_opt&amp;query=%EB%A7%9E%EC%B6%A4%EB%B2%95%EA%B2%80%EC%82%AC%EA%B8%B0&amp;nso=p%3A6m&amp;nso_open=1"
+                    onclick="return goOtherCR(this, 'a=opt.6mon&amp;r=&amp;i=&amp;u='+urlencode(this.href));">6개월</a><a
+                    role="tab" class="txt" aria-selected="false"
+                    href="?ssc=tab.nx.all&amp;where=nexearch&amp;sm=tab_opt&amp;query=%EB%A7%9E%EC%B6%A4%EB%B2%95%EA%B2%80%EC%82%AC%EA%B8%B0&amp;nso=p%3A1y&amp;nso_open=1"
+                    onclick="return goOtherCR(this, 'a=opt.1yr&amp;r=&amp;i=&amp;u='+urlencode(this.href));">1년</a>
+                  <a onclick="tCR('a=opt.cal');" href="#" role="tab"
+                     class="txt txt_option _calendar_select_trigger" data-select-trigger=""
+                     aria-selected="false">직접입력<i class="spnew ico_check">옵션<em
+                      class="open">펼치기</em><em class="close">접기</em></i></a></div>
+                <div class="mod_select_option type_calendar _calendar_select_layer"
+                     data-select-layer="" style="display: none;">
+                  <div role="tablist" class="set_calendar"><span class="set"> <span class="blind">기간 설정시작</span> <a
+                      onclick="tCR('a=opt.str');" href="#" role="tab"
+                      class="spnew_bf ico_calendar _start_trigger"
+                      aria-selected="true">2024.06.02.</a> </span> <span class="set etc">~</span>
+                    <span class="set"> <span class="blind">기간 설정끝</span> <a
+                        onclick="tCR('a=opt.fin');" href="#" role="tab"
+                        class="spnew_bf ico_calendar _end_trigger"
+                        aria-selected="false">2024.06.02.</a> </span></div>
+                  <div class="select_wrap _root">
+                    <div class="group_select _list_root"><strong class="blind">년(Year)</strong>
+                      <div class="select_cont">
+                        <div class="select_area _scroll_wrapper">
+                          <div>
+                            <ul role="tablist" class="lst_item _ul">
+                              <li class="item _li" data-value="1990" aria-selected="false"><a
+                                  href="#" class="link">1990</a></li>
+                              <li class="item _li" data-value="1991" aria-selected="false"><a
+                                  href="#" class="link">1991</a></li>
+                              <li class="item _li" data-value="1992" aria-selected="false"><a
+                                  href="#" class="link">1992</a></li>
+                              <li class="item _li" data-value="1993" aria-selected="false"><a
+                                  href="#" class="link">1993</a></li>
+                              <li class="item _li" data-value="1994" aria-selected="false"><a
+                                  href="#" class="link">1994</a></li>
+                              <li class="item _li" data-value="1995" aria-selected="false"><a
+                                  href="#" class="link">1995</a></li>
+                              <li class="item _li" data-value="1996" aria-selected="false"><a
+                                  href="#" class="link">1996</a></li>
+                              <li class="item _li" data-value="1997" aria-selected="false"><a
+                                  href="#" class="link">1997</a></li>
+                              <li class="item _li" data-value="1998" aria-selected="false"><a
+                                  href="#" class="link">1998</a></li>
+                              <li class="item _li" data-value="1999" aria-selected="false"><a
+                                  href="#" class="link">1999</a></li>
+                              <li class="item _li" data-value="2000" aria-selected="false"><a
+                                  href="#" class="link">2000</a></li>
+                              <li class="item _li" data-value="2001" aria-selected="false"><a
+                                  href="#" class="link">2001</a></li>
+                              <li class="item _li" data-value="2002" aria-selected="false"><a
+                                  href="#" class="link">2002</a></li>
+                              <li class="item _li" data-value="2003" aria-selected="false"><a
+                                  href="#" class="link">2003</a></li>
+                              <li class="item _li" data-value="2004" aria-selected="false"><a
+                                  href="#" class="link">2004</a></li>
+                              <li class="item _li" data-value="2005" aria-selected="false"><a
+                                  href="#" class="link">2005</a></li>
+                              <li class="item _li" data-value="2006" aria-selected="false"><a
+                                  href="#" class="link">2006</a></li>
+                              <li class="item _li" data-value="2007" aria-selected="false"><a
+                                  href="#" class="link">2007</a></li>
+                              <li class="item _li" data-value="2008" aria-selected="false"><a
+                                  href="#" class="link">2008</a></li>
+                              <li class="item _li" data-value="2009" aria-selected="false"><a
+                                  href="#" class="link">2009</a></li>
+                              <li class="item _li" data-value="2010" aria-selected="false"><a
+                                  href="#" class="link">2010</a></li>
+                              <li class="item _li" data-value="2011" aria-selected="false"><a
+                                  href="#" class="link">2011</a></li>
+                              <li class="item _li" data-value="2012" aria-selected="false"><a
+                                  href="#" class="link">2012</a></li>
+                              <li class="item _li" data-value="2013" aria-selected="false"><a
+                                  href="#" class="link">2013</a></li>
+                              <li class="item _li" data-value="2014" aria-selected="false"><a
+                                  href="#" class="link">2014</a></li>
+                              <li class="item _li" data-value="2015" aria-selected="false"><a
+                                  href="#" class="link">2015</a></li>
+                              <li class="item _li" data-value="2016" aria-selected="false"><a
+                                  href="#" class="link">2016</a></li>
+                              <li class="item _li" data-value="2017" aria-selected="false"><a
+                                  href="#" class="link">2017</a></li>
+                              <li class="item _li" data-value="2018" aria-selected="false"><a
+                                  href="#" class="link">2018</a></li>
+                              <li class="item _li" data-value="2019" aria-selected="false"><a
+                                  href="#" class="link">2019</a></li>
+                              <li class="item _li" data-value="2020" aria-selected="false"><a
+                                  href="#" class="link">2020</a></li>
+                              <li class="item _li" data-value="2021" aria-selected="false"><a
+                                  href="#" class="link">2021</a></li>
+                              <li class="item _li" data-value="2022" aria-selected="false"><a
+                                  href="#" class="link">2022</a></li>
+                              <li class="item _li" data-value="2023" aria-selected="false"><a
+                                  href="#" class="link">2023</a></li>
+                              <li class="item _li" data-value="2024" aria-selected="true"><a
+                                  href="#" class="link">2024</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="group_select _list_root"><strong class="blind">월(Month)</strong>
+                      <div class="select_cont">
+                        <div class="select_area _scroll_wrapper">
+                          <div>
+                            <ul role="tablist" class="lst_item _ul">
+                              <li class="item _li" data-value="1" aria-selected="false"><a href="#"
+                                                                                           class="link">1</a>
+                              </li>
+                              <li class="item _li" data-value="2" aria-selected="false"><a href="#"
+                                                                                           class="link">2</a>
+                              </li>
+                              <li class="item _li" data-value="3" aria-selected="false"><a href="#"
+                                                                                           class="link">3</a>
+                              </li>
+                              <li class="item _li" data-value="4" aria-selected="false"><a href="#"
+                                                                                           class="link">4</a>
+                              </li>
+                              <li class="item _li" data-value="5" aria-selected="false"><a href="#"
+                                                                                           class="link">5</a>
+                              </li>
+                              <li class="item _li" data-value="6" aria-selected="true"><a href="#"
+                                                                                          class="link">6</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="group_select _list_root"><strong class="blind">일(Day)</strong>
+                      <div class="select_cont">
+                        <div class="select_area _scroll_wrapper">
+                          <div>
+                            <ul role="tablist" class="lst_item _ul">
+                              <li class="item _li" data-value="1" aria-selected="false"><a href="#"
+                                                                                           class="link">1</a>
+                              </li>
+                              <li class="item _li" data-value="2" aria-selected="true"><a href="#"
+                                                                                          class="link">2</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="btn_area">
+                    <button data-cr-area="opt.set" type="button" class="btn_apply _apply_btn">적용
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="bx clear">
+              <div class="bx_inner">
+                <div class="option"><a
+                    href="?ssc=tab.nx.all&amp;where=nexearch&amp;sm=tab_opt&amp;query=%EB%A7%9E%EC%B6%A4%EB%B2%95%EA%B2%80%EC%82%AC%EA%B8%B0&amp;nso_open=1"
+                    onclick="return goOtherCR(this, 'a=opt.reset&amp;r=&amp;i=&amp;u='+urlencode(this.href));"
+                    class="btn_clear spnew_bf" role="button">옵션 초기화</a> <a
+                    href="https://help.naver.com/support/alias/search/integration/intergration_84.naver"
+                    target="_blank"
+                    onclick="return goOtherCR(this, 'a=opt.help&amp;r=&amp;i=&amp;u='+urlencode(this.href));"
+                    class="link_help">검색옵션 가이드<i class="spnew api_ico_help"></i></a></div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="_scrollLog" style="visibility:hidden;height:0px;margin:0 28px"></div>
+      <link rel="stylesheet" type="text/css"
+            href="https://ssl.pstatic.net/sstatic/keypage/outside/scui/grammar_check/css/cs_grammar_check_230919.css">
+      <section id="grammar_checker" class="sc_new cs_grammar_check">
+        <div class="api_subject_bx">
+          <div class="mod_card_bx">
+            <div class="check_box">
+              <div class="text_box _original">
+                <div class="wrap_area"><h3 class="check_title" style="color: darkgray;">원문</h3>
+                  <div class="text_area"><span class="blind">맞춤법검사기 입력 영역</span>
+                    <textarea id="before-correct" class="txt_gray"></textarea>
+                    <p class="stand_txt" style="display:none"></p></div>
+                  <div class="check_info">
+                    <button class="btn_check" onclick="correct()">검사하기</button>
+                  </div>
+                </div>
+              </div>
+              <div class="text_box right _result" style="color: darkgray;">
+                <div class="wrap_area"><h3 class="check_title">교정 결과</h3>
+                  <div class="text_area"><span class="blind">맞춤법검사기 결과 영역</span>
+                    <p id="after-correct" class="_result_text stand_txt"></p></div>
+                  <div class="check_info right">
+                    <div id="exists-correct" class="check_area" style="display:none;">
+                      <dl>
+                        <dt class="blind">붉은색 텍스트</dt>
+                        <dd><span class="circle"></span>맞춤법</dd>
+                        <dt class="blind">보라색 택스트</dt>
+                        <dd><span class="circle violet"></span>표준어의심</dd>
+                      </dl>
+                      <dl>
+                        <dt class="blind">녹색 텍스트</dt>
+                        <dd><span class="circle green"></span>띄어쓰기</dd>
+                        <dt class="blind">파란색 택스트</dt>
+                        <dd><span class="circle blue"></span>통계적교정</dd>
+                      </dl>
+                    </div>
+                    <div id="not-exists-correct" class="check_area" style="display:none;"><p class="notice_text">교정된 내용이 없습니다.</p></div>
+                    <div class="btn_area">
+                      <button class="copy" onclick="copy()"><span class="blind">복사하기</span></button>
+                    </div>
+                  </div>
+                  <div class="copy_popup" style="display:none;"><p class="popup_text">검사결과가 복사되었습니다.<br>원하는
+                    곳에 붙여넣기(Ctrl+V)해주세요. </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</div>
+
+<script>
+  let notag = '';
+
+  async function correct() {
+    const query = document.querySelector("#before-correct").value;
+
+    const data = await call(query);
+    const result = data.message.result;
+
+    const afterCorrect = document.querySelector("#after-correct");
+
+    afterCorrect.innerHTML = result.html;
+    notag = result.notag_html;
+
+    if (query === notag) {
+      document.querySelector("#not-exists-correct").style.display = 'block';
+      document.querySelector("#exists-correct").style.display = 'none';
+    } else {
+      document.querySelector("#exists-correct").style.display = 'block';
+      document.querySelector("#not-exists-correct").style.display = 'none';
+    }
+  }
+
+  async function call(query) {
+    const keyRes = await fetch("https://search.naver.com/search.naver?query=%EB%A7%9E%EC%B6%A4%EB%B2%95%EA%B2%80%EC%82%AC%EA%B8%B0");
+    const body = await keyRes.text();
+    const keyProperty = "passportKey=";
+    const keyFragments = body.substring(body.indexOf(keyProperty) + keyProperty.length);
+    const passportKey = keyFragments.substring(0, keyFragments.indexOf("\""));
+
+    const res = await fetch(
+        `https://m.search.naver.com/p/csearch/ocontent/util/SpellerProxy?passportKey=${passportKey}&q=${query}&color_blindness=0`)
+
+    return await res.json();
+  }
+
+  function copy() {
+    navigator.clipboard.writeText(notag);
+
+    const copyPopup = document.querySelector('.copy_popup');
+
+    copyPopup.style.display = 'block';
+
+    setTimeout(() => {
+      copyPopup.style.display = 'none';
+    }, 1500)
+  }
+</script>
+</body>
+
+</html>

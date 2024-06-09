@@ -17,10 +17,12 @@
     "mac": {
       "target": [
         "default"
-      ]
+      ],
+      "icon": "./assets/icons/icon.icns"
     },
     "dmg": {
-      "title": "Grammar"
+      "title": "Grammar",
+      "icon": "./assets/icons/icon.icns"
     },
     "win": {
       "target": [

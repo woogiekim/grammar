@@ -1,0 +1,460 @@
+@charset "UTF-8";
+.cs_grammar_check .icon_beta {
+  display: inline-block;
+  overflow: hidden;
+  width: 19px;
+  height: 9px;
+  margin: -4px 0 4px 3px;
+  background: url(../img/sp_grammar_check_v3.png) 0 0 no-repeat;
+  background-position: -68px -20px;
+  -webkit-background-size: 100px 100px;
+  background-size: 100px 100px;
+  font-size: 0;
+  line-height: 0;
+  vertical-align: middle;
+}
+
+.cs_grammar_check button {
+  outline: none;
+}
+
+.cs_grammar_check .bar_icon {
+  display: inline-block;
+  overflow: hidden;
+  width: 0;
+  height: 11px;
+  margin: -1px 9px 1px 7px;
+  border-left: 1px solid #eaeaea;
+  vertical-align: middle;
+}
+
+.cs_grammar_check .check_box {
+  position: relative;
+  width: 100%;
+  min-height: 208px;
+  height: auto;
+  margin-top: 1px;
+}
+
+.cs_grammar_check .check_box .text_box {
+  position: relative;
+  width: 310px;
+  min-height: 131px;
+  border: 1px solid #d9d9dc;
+  border: 1px solid rgba(var(--gray70), 1);
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.cs_grammar_check .check_box .text_box .wrap_area {
+  padding: 17px 0 0 20px;
+}
+
+.cs_grammar_check .check_box .text_box.right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 310px;
+}
+
+.cs_grammar_check .check_box .text_box.right .text_area {
+  padding-top: 13px;
+}
+
+.cs_grammar_check .check_box .text_box.right .text_area .stand_txt {
+  padding: 0 20px 30px 0;
+}
+
+.cs_grammar_check .check_box .text_box.right .text_area .txt_gray {
+  padding-right: 20px;
+}
+
+.cs_grammar_check .check_box .text_box .check_title {
+  line-height: 17px;
+  font-size: 14px;
+  letter-spacing: -0.2px;
+}
+
+.cs_grammar_check .check_box .text_box .text_area {
+  overflow: hidden;
+  position: relative;
+  padding-top: 14px;
+  width: 100%;
+  min-height: 150px;
+}
+
+.cs_grammar_check .check_box .text_box .text_area textarea {
+  overflow: auto;
+  box-sizing: border-box;
+  margin-bottom: 18px;
+  vertical-align: top;
+  padding: 0 18px 30px 0;
+  width: 100%;
+  max-height: 289px;
+  min-height: 124px;
+  line-height: 2rem;
+  resize: none;
+  border: 0;
+  outline: none;
+}
+
+.cs_grammar_check .check_box .text_box .text_area p {
+  word-wrap: normal;
+}
+
+.cs_grammar_check .check_box .text_box .text_area p .red_text {
+  color: #ff5757;
+}
+
+.cs_grammar_check .check_box .text_box .text_area p .green_text {
+  color: #02c73c;
+}
+
+.cs_grammar_check .check_box .text_box .text_area p .violet_text {
+  color: #b22af8;
+}
+
+.cs_grammar_check .check_box .text_box .text_area p .blue_text {
+  color: #2facea;
+}
+
+.cs_grammar_check .check_box .text_box .text_area p .grammar {
+  font-weight: bold;
+}
+
+.cs_grammar_check .check_box .text_box .text_area p .spacing {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.cs_grammar_check .check_box .text_box .text_area p .standard_spelling {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.cs_grammar_check .check_box .text_box .text_area p .stat {
+  font-weight: bold;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.cs_grammar_check .check_box .text_box .text_area .txt_gray {
+  color: #808080;
+  line-height: 2rem;
+}
+
+.cs_grammar_check .check_box .text_box .text_area .stand_txt {
+  overflow-y: auto;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  padding: 0 18px 30px 0;
+  width: 100%;
+  max-height: 292px;
+  color: #444447;
+  color: rgba(var(--gray20), 1);
+  line-height: 2.2rem;
+}
+
+.cs_grammar_check .check_box .text_box .text_area .stand_txt .text_underline {
+  text-decoration: underline;
+}
+
+.cs_grammar_check .check_box .text_box .text_area .stand_txt.txt_gray {
+  color: #808080;
+  line-height: 2.2rem;
+}
+
+.cs_grammar_check .check_box .text_box .check_info {
+  padding: 18px 18px 18px 0;
+}
+
+.cs_grammar_check .check_box .text_box .check_info:after {
+  content: '';
+  clear: both;
+  display: block;
+}
+
+.cs_grammar_check .check_box .text_box .check_info.right {
+  position: absolute;
+  box-sizing: border-box;
+  padding-right: 15px;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.cs_grammar_check .check_box .text_box .check_info .txt_limit {
+  display: inline-block;
+  vertical-align: top;
+  line-height: 36px;
+  color: #808080;
+}
+
+.cs_grammar_check .check_box .text_box .check_info .txt_limit em {
+  color: #808080;
+}
+
+.cs_grammar_check .check_box .text_box .check_info .txt_limit em.on {
+  color: #5F6066;
+}
+
+.cs_grammar_check .check_box .text_box .check_info .txt_limit .counting_text {
+  color: #5f6066;
+}
+
+.cs_grammar_check .check_box .text_box .check_info .txt_limit .close_area {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  width: 16px;
+  height: 16px;
+}
+
+.cs_grammar_check .check_box .text_box .check_info .txt_limit .close_area .bar_icon {
+  display: none;
+}
+
+.cs_grammar_check .check_box .text_box .check_info .txt_limit .delete_btn {
+  overflow: hidden;
+  display: block;
+  color: transparent;
+  white-space: nowrap;
+  padding: 0;
+  width: 16px;
+  height: 16px;
+  border: 0;
+  background: url(../img/sp_grammar_check_v3.png) 0 0 no-repeat;
+  background-position: 0 0;
+  -webkit-background-size: 100px 100px;
+  background-size: 100px 100px;
+  cursor: pointer;
+  outline: none;
+}
+
+.cs_grammar_check .check_box .text_box .check_info .btn_check {
+  float: right;
+  display: block;
+  width: 81px;
+  height: 36px;
+  box-sizing: border-box;
+  line-height: 36px;
+  font-size: 1.4rem;
+  letter-spacing: -0.2px;
+  font-weight: 400;
+  text-align: center;
+  border: solid 1px rgba(0, 0, 0, 0.05);
+  background-color: #03aa5a;
+  background-color: rgba(var(--searchGreen), 1);
+  border-radius: 8px;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.cs_grammar_check .check_box .text_box .check_info .notice_text {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: -15px;
+  color: #fc4c4e;
+  line-height: 2rem;
+  letter-spacing: -0.5px;
+}
+
+.cs_grammar_check .check_box .text_box .check_info .check_area {
+  position: absolute;
+  left: 20px;
+  bottom: 15px;
+}
+
+.cs_grammar_check .check_box .text_box .check_info .check_area dl {
+  overflow: hidden;
+  width: 200px;
+}
+
+.cs_grammar_check .check_box .text_box .check_info .check_area dl:first-child {
+  margin: 0 0 2px;
+}
+
+.cs_grammar_check .check_box .text_box .check_info .check_area dl dd {
+  position: relative;
+  box-sizing: border-box;
+  padding-left: 11px;
+  width: 73px;
+  float: left;
+  line-height: 2rem;
+  color: #808080;
+  white-space: nowrap;
+}
+
+.cs_grammar_check .check_box .text_box .check_info .check_area dl dd .circle {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  margin-top: -3px;
+  width: 6px;
+  height: 6px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #ff5757;
+}
+
+.cs_grammar_check .check_box .text_box .check_info .check_area dl dd .circle.violet {
+  background-color: #b22af8;
+}
+
+.cs_grammar_check .check_box .text_box .check_info .check_area dl dd .circle.green {
+  background-color: #02c73c;
+}
+
+.cs_grammar_check .check_box .text_box .check_info .check_area dl dd .circle.blue {
+  background-color: #2facea;
+}
+
+.cs_grammar_check .check_box .text_box .check_info .check_area.colorless dl dd {
+  padding-left: 15px;
+  width: 83px;
+}
+
+.cs_grammar_check .check_box .text_box .check_info .check_area.colorless dl dd .ico {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  width: 9px;
+  height: 11px;
+  background: url(../img/sp_grammar_check_v3.png) 0 0 no-repeat;
+  background-position: -36px 0;
+  -webkit-background-size: 100px 100px;
+  background-size: 100px 100px;
+}
+
+.cs_grammar_check .check_box .text_box .check_info .check_area.colorless dl dd .ico.space {
+  background-position: -47px 0;
+}
+
+.cs_grammar_check .check_box .text_box .check_info .check_area.colorless dl dd .ico.standard {
+  background-position: -58px 0;
+}
+
+.cs_grammar_check .check_box .text_box .check_info .check_area.colorless dl dd .ico.popular {
+  background-position: -69px 0;
+}
+
+.cs_grammar_check .check_box .text_box .check_info .btn_area {
+  float: right;
+}
+
+.cs_grammar_check .check_box .text_box .check_info .btn_area button {
+  margin-top: -10px !important;
+  vertical-align: top;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.cs_grammar_check .check_box .text_box .check_info .btn_area .colorless {
+  width: 21px;
+  height: 23px;
+  margin: 0 15px 0 0;
+  background: url(../img/sp_grammar_check_v3.png) 0 0 no-repeat;
+  background-position: 0 -20px;
+  -webkit-background-size: 100px 100px;
+  background-size: 100px 100px;
+}
+
+.cs_grammar_check .check_box .text_box .check_info .btn_area .colorless.on {
+  background-position: -22px -20px;
+}
+
+.cs_grammar_check .check_box .text_box .check_info .btn_area .copy {
+  width: 17px;
+  height: 18px;
+  background: url(../img/sp_grammar_check_v3.png) 0 0 no-repeat;
+  background-position: -47px -20px;
+  -webkit-background-size: 100px 100px;
+  background-size: 100px 100px;
+}
+
+.cs_grammar_check .grammar_info {
+  position: relative;
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px solid #f0f0f3;
+  border-top: 1px solid rgba(var(--gray90), 1);
+}
+
+.cs_grammar_check .info_area {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 1.4rem;
+  line-height: 1.9rem;
+  color: #939396;
+  color: rgba(var(--gray50), 1);
+  letter-spacing: -0.2px;
+}
+
+/*복사하기 팝업*/
+.cs_grammar_check .copy_popup {
+  position: absolute;
+  bottom: -42px;
+  right: 16px;
+  z-index: 3100;
+  width: 361px;
+  padding: 10px 0;
+  border-radius: 12px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.05), 0px 3px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.05), 0px 3px 6px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  background-color: rgba(var(--bgBlock), 1);
+  font-size: 1.4rem;
+  line-height: 1.9rem;
+  color: #555558;
+  color: rgba(var(--gray30), 1);
+  font-weight: normal;
+  letter-spacing: -0.3px;
+  word-break: keep-all;
+  white-space: normal;
+  text-align: left;
+}
+
+.cs_grammar_check .copy_popup .popup_text {
+  margin: 0 36px 0 16px;
+  color: #555558;
+  color: rgba(var(--gray30), 1);
+  line-height: 1.8rem;
+}
+
+.cs_grammar_check .copy_popup .close_btn {
+  display: block;
+  position: absolute;
+  top: 19px;
+  right: 16px;
+  border: 0;
+  font-size: 0;
+  background: none;
+  border: none;
+  cursor: pointer;
+  width: 13px;
+  height: 13px;
+  background: url(../img/sp_grammar_check_v3.png) 0 0 no-repeat;
+  background-position: -20px 0;
+  -webkit-background-size: 100px 100px;
+  background-size: 100px 100px;
+}
+
+.cs_grammar_check .copy_popup .close_btn:hover {
+  background: url(../img/sp_grammar_check_v3.png) 0 0 no-repeat;
+  background-position: -87.5px 0.5px;
+  -webkit-background-size: 100px 100px;
+  background-size: 100px 100px;
+}
+
+.cs_grammar_check .go_write {
+  position: absolute;
+  top: 0;
+  right: 20px;
+}
+
+/*# sourceMappingURL=map/cs_grammar_check.css.map */
